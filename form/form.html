@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./form.css">
+    <title>form</title>
+</head>
+<body>
+    
+    <form action="" id="form">
+        <h1 style="text-align: center;"><em>APPLICATION FORM</em></h1>
+        <div> 
+            <p>NAME: <input type="text" name="name" id="name"  required></p>
+            <p>Email: <input type="email" name="email" id="email" required> </p>
+            <p>phone_no: <input type="text" name="phone_no" id="ph_no"  required></p>
+        </div>
+        <div id="gender1">
+            <fieldset id="field">
+                <legend id="legend"><em>GENDER</em></legend>
+                <p id="genopt">
+        
+                        MALE:<input type="radio" name="GENDER" class="gen">
+                    
+                        FEMALE:<input type="radio" name="GENDER" class="gen">
+                        
+                </p>
+            </fieldset>
+        </div>
+        
+        <p>
+            area code: <input type="number" name="pincode" id="pincode">
+        </p>
+        <div>
+            <label for="upload"><em>Upload CV:</em></label>
+            <input type="file" id="upload" name="upload">
+        </div>
+        
+            <div>
+                <h4>select card for payment </h4>
+                <p>
+                    card:
+                    <select name="cardtypr" id="">
+                        <option value="">__select cardtype__</option>
+                        <option value="master">master</option>
+                        <option value="visa">visa</option>
+                        <option value="debit">debit</option>
+                    </select>
+                </p>
+            </div>
+            <div>
+                <p>
+                  Date of Birth: <input type="date" name="dateofbirth" id="dob">
+                </p>
+            </div>
+            <button id="button">
+                Submit
+            </button>
+        
+    </form>
+ 
+
+</body>
+</html>
